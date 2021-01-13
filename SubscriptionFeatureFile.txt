@@ -29,7 +29,7 @@ Feature: Sign Up with invalid input
   
     Examples: 
       | firstname | lastname | email                    | password | 
-      | Smita     | Mhatre   | smitamhatre538@gmail.com | smita123 | 
+      | Smita     | Mhatre   | smitamhatre537@gmail.com | smita123 | 
 
   Scenario Outline: Invalid characters in firstname and lastname
      When enter invalid characters in <firstname> and <lastname>, valid <email> and <password>  
